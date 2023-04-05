@@ -1,0 +1,60 @@
+*{
+margin: 0;
+padding: inherit;
+}
+body{
+    background:linear-gradient(to right, #85aed6,#a3bad0,#85aed6)
+}
+div.main{
+    width: 500px;
+    margin: 100px auto 0px auto;
+}
+h3{ font-size: 32px;
+    text-align: center;
+    padding: 0px;
+    font-family: cursive;
+}
+div.register{
+    background-color:#9f779c;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border:1px solid gray;
+    box-shadow: 2px 2px 15 px  blue;
+    color: #fff;
+}
+form#register{
+    margin: 40px; 
+}
+label{
+    font-family: cursive;
+    font-size: 18px;
+    font-style: oblique;
+}
+input#name{
+    width: 400px;
+    border: 2px solid #4b497b;
+    border-radius: 3px;
+    outline: 0; 
+    font-family: cursive;
+    padding: 7px;
+    background-color: #caa7c8;
+}
+.button{
+    width: 250px;
+    padding: 6px;
+    color: aliceblue;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: 15px;
+    border: 1px solid #4b497b;
+    text-align: center;
+    display: block;
+    background: linear-gradient(to left,#caa7c8,#7a60a6);
+    transition:0.5s;
+}
+.button:hover{
+    background: linear-gradient(to left,#4b497b,#a89eb9,#4b497b);
+}
